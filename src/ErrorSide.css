@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+div.error
+{
+    height: 100vh;
+    width:100%;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.856);
+}
+
+form.errorTitle{
+    background-color: white;
+    border-radius: 13px;
+    width: 50%;
+    margin: auto;
+    margin-top: 11rem;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    box-shadow: 4px 4px 10px darkred;
+    padding: 5px;
+    position: relative;
+
+}
+
+form.errorTitle h2{
+    text-align: center;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    width: 108%;
+    position: relative;
+    height: 2.7rem;
+    right: 5px;
+    bottom: 25px;
+    overflow: hidden;
+    background-color: brown;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form.errorTitle h3,form.errorTitle button{
+    position: relative;
+    bottom: 12px;
+}

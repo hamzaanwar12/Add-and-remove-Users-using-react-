@@ -1,0 +1,58 @@
+button{
+
+    background-color: darkred;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    height: 3rem;
+    width: 8rem;
+    font-size:17px;
+    font-family: cursive;
+    margin-top: 13px;
+}      
+
+button:hover{
+background-color:white;
+color: darkred;
+border:2px solid darkred;
+}
+
+button:active,button:focus
+{
+outline: none;
+}  
+
+button:active
+{
+outline: none;
+background-color: darkred;
+color: white;
+}  
+
+form{
+    box-sizing:border-box;
+    width: 50%;
+    border: 2px solid grey;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px grey;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 5px;
+    margin-bottom: 2rem;
+}
+
+
+input{
+    padding:3px;
+    display:block;
+    height:2rem;
+    width:98%;
+    font-size:17px;
+}
+
+::placeholder{
+    font-size: 17px;
+}

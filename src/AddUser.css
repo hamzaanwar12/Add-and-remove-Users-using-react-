@@ -1,0 +1,17 @@
+*{
+  box-sizing: border-box;
+}
+div.list{
+  border-radius: 5px;
+  width: 50%;
+  margin: auto;
+  padding: 12px;
+  border: 2px solid rgb(223, 218, 218);
+  box-shadow: 3px 4px 12px rgb(223, 218, 218);
+}
+
+div.list h2{
+  padding: 3px;
+  font-size: 15px;
+  border: 2px solid rgb(175, 161, 161);
+}
